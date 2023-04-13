@@ -7126,7 +7126,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_TeleportationProvider: {fileID: 0}
+  m_TeleportationProvider: {fileID: 1313711682}
   m_MatchOrientation: 0
   m_MatchDirectionalInput: 0
   m_TeleportTrigger: 0
@@ -8538,9 +8538,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4604869783112641459, guid: 1fa0a0827d76adf4599b7de25f8b904f,
         type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604869783112641459, guid: 1fa0a0827d76adf4599b7de25f8b904f,
+        type: 3}
       propertyPath: m_AudioClipForOnSelectEntered
       value: 
       objectReference: {fileID: 8300000, guid: 39eeabf0f489f4e46a024aa733bf1b4b, type: 3}
+    - target: {fileID: 4604869783112641461, guid: 1fa0a0827d76adf4599b7de25f8b904f,
+        type: 3}
+      propertyPath: m_LineLength
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4604869783804898882, guid: 1fa0a0827d76adf4599b7de25f8b904f,
         type: 3}
       propertyPath: m_ModelParent
@@ -8561,6 +8571,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_DirectionalAnchorRotationAction.m_Action.m_Name
       value: Directional Anchor Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604869783804898883, guid: 1fa0a0827d76adf4599b7de25f8b904f,
+        type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604869783804898885, guid: 1fa0a0827d76adf4599b7de25f8b904f,
+        type: 3}
+      propertyPath: m_LineLength
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7238546175619788786, guid: 1fa0a0827d76adf4599b7de25f8b904f,
         type: 3}
