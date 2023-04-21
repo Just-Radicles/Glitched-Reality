@@ -977,12 +977,12 @@ PrefabInstance:
     - target: {fileID: 5100487688657879902, guid: d3ed176389d9100418502f316fa095e5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6
+      value: 6.49
       objectReference: {fileID: 0}
     - target: {fileID: 5100487688657879902, guid: d3ed176389d9100418502f316fa095e5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15
+      value: 12.86
       objectReference: {fileID: 0}
     - target: {fileID: 5100487688657879902, guid: d3ed176389d9100418502f316fa095e5,
         type: 3}
@@ -1027,7 +1027,7 @@ PrefabInstance:
     - target: {fileID: 6228589368920423839, guid: d3ed176389d9100418502f316fa095e5,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -2001,7 +2001,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517276403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 0.27, z: -0.42}
+  m_LocalPosition: {x: -0.1, y: 0.27, z: 0.22}
   m_LocalScale: {x: 0.085737355, y: 0.049664848, z: 0.049664848}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2088,8 +2088,8 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517276403}
   serializedVersion: 8
-  lengthInSec: 5
-  simulationSpeed: 1
+  lengthInSec: 2
+  simulationSpeed: 15
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -2162,9 +2162,9 @@ ParticleSystem:
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 5
-      minScalar: 5
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -2216,7 +2216,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 7
+      scalar: 6
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -2708,7 +2708,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 0
+    type: 5
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -2716,7 +2716,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 0.1, y: 0.1, z: 0.1}
+    m_Scale: {x: 20, y: 36.95105, z: 27.201881}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -2791,7 +2791,7 @@ ParticleSystem:
     m_TextureColorAffectsParticles: 1
     m_TextureAlphaAffectsParticles: 1
     m_TextureBilinearFiltering: 0
-    randomDirectionAmount: 0
+    randomDirectionAmount: 1
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
@@ -2914,7 +2914,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 20
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -6893,7 +6893,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600664178}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
   m_Name: 
@@ -6904,7 +6904,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
   m_CustomReticle: {fileID: 8656087483511947524, guid: 50f8d835961353c4a8e0c4b77d7f8876,
