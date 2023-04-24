@@ -20,11 +20,19 @@ public class ChangeScene : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
-        
+        Debug.Log("here!");
         if(other.gameObject.CompareTag("PlayerHands")){
             SceneManager.LoadScene(sceneName);
         }
     }
+
+    /*void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("here!");
+        if(other.gameObject.CompareTag("PlayerHands")){
+            SceneManager.LoadScene(sceneName);
+        }
+    }*/
 }
