@@ -949,6 +949,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8266063993515493208, guid: d3ed176389d9100418502f316fa095e5,
+        type: 3}
+      propertyPath: sceneName
+      value: Realm 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8213672053079580717, guid: d3ed176389d9100418502f316fa095e5,
         type: 3}
       propertyPath: m_CollisionDetection

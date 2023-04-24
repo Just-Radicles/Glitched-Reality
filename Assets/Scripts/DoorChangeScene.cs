@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChestChangeScene : MonoBehaviour
+public class DoorChangeScene : MonoBehaviour
 {
 
     public string sceneName;
@@ -19,7 +19,6 @@ public class ChestChangeScene : MonoBehaviour
     {
         
     }
-
     void OnCollisionEnter(Collision other)
     {
         
